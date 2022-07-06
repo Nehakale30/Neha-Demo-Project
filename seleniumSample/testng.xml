@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/nkale/eclipse-workspace/seleniumSample/src/TestNGTutorial">
+        <classes>
+            <class name="TestNGTutorial.day1">
+                <methods>
+                    <include name="test1"/>
+                    <include name="Demo.*"/>
+                </methods>
+            </class>
+            <class name="TestNGTutorial.day2">
+                <methods>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                    <include name="method3"/>
+                    <include name="method4"/>
+                </methods>
+            </class>
+            <class name="TestNGTutorial.day3">
+                <methods>
+                    <include name="personalLoan"/>
+                    <include name="homeLoan"/>
+                    <include name="carLoan"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
