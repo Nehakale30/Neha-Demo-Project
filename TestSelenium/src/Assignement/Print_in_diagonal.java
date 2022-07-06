@@ -13,7 +13,7 @@ public class Print_in_diagonal {
                    System.out.print(" ");
                }
            }
-            //System.out.println();
+            //System.out.println("test");
         }
     }
 }
